@@ -9,7 +9,7 @@ public class FlowerChat : MonoBehaviour
     private const string ApiUrl =
         "https://integrate.api.nvidia.com/v1/chat/completions";
 
-    [SerializeField] private string apiKey = "YOUR_API_KEY_HERE";
+    [SerializeField] private string apiKey = "Your_API_Key_Here";
 
     [Header("대화 설정")]
     [SerializeField, Min(1)] private int maxConversationPairs = 5;
@@ -162,11 +162,9 @@ public class FlowerChat : MonoBehaviour
                 if (request.result != UnityWebRequest.Result.Success)
                 {
                     Debug.LogError(
-                        "NVIDIA 요청 실패: HTTP " +
-                        request.responseCode +
-                        " / " +
-                        request.error
-                    );
+                      $"NVIDIA 요청 실패: HTTP {request.responseCode} / {request.error}\n" +
+                      $"응답 본문: {request.downloadHandler?.text}"
+                      );
 
                     ShowMessage(
                         "연결에 문제가 생겼어요. 입력한 내용을 다시 보내주세요."
