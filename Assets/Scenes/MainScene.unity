@@ -312,12 +312,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65581eea28afcfa4ba1be70493a750d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlowerChat
-  apiKey: 
+  apiKey: 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
   maxConversationPairs: 5
   maxInputCharacters: 1000
   developerMode: 1
-  flowerSpeech: {fileID: 0}
-  userInput: {fileID: 0}
+  flowerSpeech: {fileID: 1031630451}
+  userInput: {fileID: 1449581531}
 --- !u!1 &147207166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2844,7 +2844,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1273865713}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 80652725}
+        m_TargetAssemblyTypeName: FlowerChat, Assembly-CSharp
+        m_MethodName: OnSendButtonClicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1273865713
 MonoBehaviour:
   m_ObjectHideFlags: 0
