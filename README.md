@@ -14,3 +14,4 @@
  
 3. 실행 파일 구글 드라이브
    https://drive.google.com/drive/folders/1myNa8NcZzhHtyVOgNPs1IOQAKni4vM_M?usp=sharing
+   ( '전시회용' 폴더 : 대화 JSON 로컬 저장 X, '플레이용' 폴더 : 대화 JSON 로컬 저장 O )
