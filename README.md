@@ -11,6 +11,7 @@
    - AI 캐모마일과의 대화 ( 말풍선 버튼, 왼쪽상단 돌아가기 버튼으로 원래 UI로 돌아갈 수 있음. )
    - 캐모마일 돌봐주기 ( 하트 버튼, 애니메이션 재생 )
    - 캐모마일 물주기 ( 물방울 버튼, 애니메이션 재생 )
+   - 캐모마일 쓰다듬기 ( 캐모마일 클릭, 애니메이션 재생 )
  
 3. 실행 파일 구글 드라이브 : 
 https://drive.google.com/drive/folders/1myNa8NcZzhHtyVOgNPs1IOQAKni4vM_M?usp=sharing
